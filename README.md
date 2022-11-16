@@ -1,9 +1,10 @@
 # f2bin
-A small command line utility to convert a file to C code
+A small command line utility to convert a file to C code. Works on both Windows and Linux
 
 Building:
 ```
 gcc program.c -o f2bin -s -Os
+# mv f2bin /usr/local/bin/f2bin
 ```
 
 Usage:
